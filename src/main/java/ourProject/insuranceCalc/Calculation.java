@@ -1,6 +1,5 @@
 package ourProject.insuranceCalc;
 
-
 import javax.swing.*;
 import java.util.Arrays;
 
