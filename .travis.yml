@@ -1,2 +1,2 @@
 language: java
-script: maven test -B
+script: mvn -Dtest=CalcExpRateTest test
