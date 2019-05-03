@@ -11,7 +11,7 @@ public class GUI {
 
     private String defaultWindowPreName = "Страховой калькулятор: ";
     public static final Font REGULAR_FONT = new Font("Arial", Font.PLAIN,14);
-    private ImageIcon img= new ImageIcon(getClass().getResource("/img/64.png"));
+    
     public Color panelColors[] = {Color.WHITE,Color.WHITE,Color.WHITE,LIGHT_GRAY,LIGHT_GRAY};
 
     public void initWindow(JFrame frame, int width, int height, String title, int actionOnClose, JPanel panel){
@@ -21,7 +21,7 @@ public class GUI {
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.add(panel);
-        frame.setIconImage(img.getImage());
+       
         frame.setVisible(true);
 
     }
